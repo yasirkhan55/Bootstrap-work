@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>yasirblog</title>
+</head>
+
+<body>
+
+  <!-- navigation section -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container-fluid">
+      <img src="image/LOGO.png" width="300px">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0  mx-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light " href="/home.html">
+              <b>Home</b></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-light" href="/about.html"> <b>About</b></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-light" href="/girls.html"> <b>girls</b></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-light" href="/men.html"> <b>Men</b></a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="/contact.html"> <b>contact us</b></a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="mx-2">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+            Login
+          </button>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signupModal">signup</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- login modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="loginModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- signup modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="signupModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- slide section -->
+  <div id="carouselExampleIndicators" class="carousel slide my-0 mx-0">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/GULLY FASHION.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="image/slide2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="image/slide3.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- thumbnail section -->
+  <h1 class="mx-4 text-primary">Winter Collection<button class="btn btn-danger mx-2"> Offer Save 25%</button> </h1>
+
+  <!-- thumbnial 1 -->
+
+  <div class="row mb-2">
+    <div class="col-md-4 col-12">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h3 class="mb-0">
+            Vintage Knitted Sweater </h3>
+          <div class="mb-1 text-body-secondary bg-success"><b>Rs. 3,199</b></div>
+          <p class="card-text mb-auto">Mock turtle neck
+            Three tone pattern on the sweater
+            Full sleeves Ribbed cuffs and hem
+            Color: Black and Grey
+            Fabric: Woolen
+            Weight: 505 g</p>
+
+        </div>
+        <div class="col-md-4 col-12d-lg-block">
+          <img src="image/winter1.webp" class="bd-placeholder-img" width="200" height="250">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-12">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h3 class="mb-0">Striped Turtle Neck jacket</h3>
+          <div class="mb-1 text-body-secondary bg-success"><b>Rs. 3,499</b></div>
+          <p class="card-text mb-auto">Turtle neck
+            Stripe pattern on the jacket
+            Full sleeves
+            Color: Off White
+            Fabric: Woolen
+            Weight: 486 g</p>
+          <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+            Continue reading
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="col-md-4 col-12 d-lg-block">
+          <img src="image/m4.jfif" class="bd-placeholder-img" width="200" height="250">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-12">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h3 class="mb-0">Polka Dot Sweater and Scarf</h3>
+          <div class="mb-1 text-body-secondary bg-success"><b>Rs. 4,199</b></div>
+          <p class="mb-auto">Round neckline
+            Glittery polka dot pattern on the sweater's front and scarf
+            Sweater with full sleeves
+            Ribbed cuff and hem
+            Color: Turquoise
+            Fabric: Woolen
+            Weight: 660 g</p>
+          <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+            Continue reading
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="col-md-4 col-12 d-lg-block">
+          <img src="image/winter3.webp" class="bd-placeholder-img" width="200" height="250"" >
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- thumbnial 2 -->
+
+    <div class=" row mb-2">
+          <div class="col-md-4 col-12">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+
+                <h3 class="mb-0">Hooded Fur Jacket</h3>
+                <div class="mb-1 text-body-secondary bg-success"><b>Rs. 2,199</b></div>
+                <p class="card-text mb-auto">Hood with faux fur detailing
+                  Push button and zip closure on the front
+                  Faux fur lining
+                  Full sleeves
+                  Color: Black
+                  Fabric: Polyester</p>
+                <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                  Continue reading
+                  <svg class="bi">
+                    <use xlink:href="#chevron-right"></use>
+                  </svg>
+                </a>
+              </div>
+              <div class="col-md-4 col-12 d-lg-block">
+                <img src="image/winter4.webp" class="bd-placeholder-img" width="200" height="250"" >
+          </div>
+        </div>
+      </div>
+      <div class=" col-md-4 col-12">
+                <div
+                  class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static">
+
+                    <h3 class="mb-0">Sleeveless Stand Collar Jacke</h3>
+                    <div class="mb-1 text-body-secondary bg-success"><b>Rs. 3,199</b></div>
+                    <p class="card-text mb-auto">Stay warm in style with our Sleeveless Stand Collar Jacket! The lined
+                      puffer interior, stand collar.</p>
+                    <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                      Continue reading
+                      <svg class="bi">
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="col-md-4 col-12 d-lg-block">
+                    <img src="image/m1.jfif" class="bd-placeholder-img" width="200" height="250">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-12">
+                <div
+                  class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static">
+
+                    <h3 class="mb-0">Black jacket</h3>
+                    <div class="mb-1 text-body-secondary bg-success"><b>Rs. 33,99</b></div>
+                    <p class="mb-auto">JM2292-00M-NVY
+
+                      Model is wearing size: Medium; Model height: 6.2ft
+
+                      .</p>
+                    <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                      Continue reading
+                      <svg class="bi">
+                        <use xlink:href="#chevron-right"></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="col-md-4 col-12 d-lg-block">
+                    <img src="image/m2.webp" class="bd-placeholder-img" width="200" height="250"" >
+                        </div>
+                                   </div>
+                                     </div>
+                                        </div>
+                                           </div>
+  
+                                          <!-- thumbnial 3 -->
+
+                                          <div class=" row mb-2">
+                    <div class="col-md-4">
+                      <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                          <h3 class="mb-0">
+                            Classic Handbag
+                          </h3>
+                          <div class="mb-1 text-body-secondary bg-success"><b>Rs. 3,599</b></div>
+                          <p class="card-text mb-auto">Product Details
+                            Handbag
+                            Thread detailing on the flap
+                            Twist lock
+                            Single compartment with mini zip pocket
+                            Adjustable metallic shoulder strap
+                          </p>
+                          <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                            <svg class="bi">
+                              <use xlink:href="#chevron-right"></use>
+                            </svg>
+                          </a>
+                        </div>
+                        <div class="col-md-4 col-12 d-lg-block">
+                          <img src="image/g4.webp" class="bd-placeholder-img" width="200" height="250">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                          <h3 class="mb-0">Collar proof Jacket</h3>
+                          <div class="mb-1 text-body-secondary bg-success"><b>Rs. 5,199</b></div>
+                          <p class="card-text mb-auto">Turtle neck
+                            Stripe pattern on the sweater
+                            Full sleeves
+                            Color: Off White
+                            Fabric: Woolen
+                            Weight: 486 g</p>
+                          <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                            <svg class="bi">
+                              <use xlink:href="#chevron-right"></use>
+                            </svg>
+                          </a>
+                        </div>
+                        <div class="col-md-4 col-12 d-lg-block">
+                          <img src="image/g3.jfif" class="bd-placeholder-img" width="200" height="250">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                          <h3 class="mb-0">Embellished Mules</h3>
+                          <div class="mb-1 text-body-secondary bg-success"><b>Rs. 42,99</b></div>
+                          <p class="mb-auto">Pointed Toe
+                            Rhinestone embellished strap
+                            Back open
+                            Fabric: Velvet
+                            Other Details
+                            Weight: 546 g</p>
+                          <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                            <svg class="bi">
+                              <use xlink:href="#chevron-right"></use>
+                            </svg>
+                          </a>
+                        </div>
+                        <div class="col-md-4 col-12 d-lg-block">
+                          <img src="image/g5.webp" class="bd-placeholder-img" width="200" height="250"" >
+                     </div>
+                     </div>
+                          </div>
+                          </div>
+  
+                            <!-- thumbnial 4 -->
+
+                            <div class=" row mb-2">
+                          <div class="col-md-4">
+                            <div
+                              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                              <div class="col p-4 d-flex flex-column position-static">
+
+                                <h3 class="mb-0">Mood perfume</h3>
+                                <div class="mb-1 text-body-secondary bg-success"><b>Rs. 3,799</b></div>
+                                <p class="card-text mb-auto"> Denat Alcohol, aqua, Ethylhexyl, methoxycinnamate, benzyl,
+                                  salicylate, limonene. alpha-iso methyl ionone, geraniol, coumarin, benzyl
+                                  alcohol,citral, hydroxycitronellal and isoeugeno</p>
+                                <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                  Continue reading
+                                  <svg class="bi">
+                                    <use xlink:href="#chevron-right"></use>
+                                  </svg>
+                                </a>
+                              </div>
+                              <div class="col-md-4 col-12 d-lg-block">
+                                <img src="image/g6.webp" class="bd-placeholder-img" width="200" height="250"" >
+                                   </div>
+                                        </div>
+                                           </div>
+                                              <div class=" col-md-4">
+                                <div
+                                  class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                  <div class="col p-4 d-flex flex-column position-static">
+                                    <h3 class="mb-0">swag</h3>
+                                    <div class="mb-1 text-body-secondary bg-success"><b>Rs. 1,899</b></div>
+                                    <p class="card-text mb-auto"> Denat Alcohol, aqua, Ethylhexyl, methoxycinnamate,
+                                      benzyl, salicylate, limonene. alpha-iso methyl ionone, geraniol, coumarin, benzyl
+                                      alcohol,citral, hydroxycitronellal and isoeugenol</p>
+                                    <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                      Continue reading
+                                      <svg class="bi">
+                                        <use xlink:href="#chevron-right"></use>
+                                      </svg>
+                                    </a>
+                                  </div>
+                                  <div class="col-md-4 col-12d-lg-block">
+                                    <img src="image/g7.webp" class="bd-placeholder-img" width="200" height="250">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div
+                                  class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                  <div class="col p-4 d-flex flex-column position-static">
+
+                                    <h3 class="mb-0">Blue Chic</h3>
+                                    <div class="mb-1 text-body-secondary bg-success"><b>Rs. 4,199</b></div>
+                                    <p class="mb-auto">This is a wider card with supporting text below as a natural
+                                      lead-in to additional content.</p>
+                                    <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                      Continue reading
+                                      <svg class="bi">
+                                        <use xlink:href="#chevron-right"></use>
+                                      </svg>
+                                    </a>
+                                  </div>
+                                  <div class="col-md-4 col-12 d-lg-block">
+                                    <img src="image/g8.webp" class="bd-placeholder-img" width="200" height="250"" >
+                                           </div>
+                                            </div>
+                                           </div>
+                                           </div>
+                                          </div>
+
+                                             <!-- thumbnail close -->
+
+                                           <!-- footer -->
+
+                                          <footer class=" bd-footer py-4 py-md-5 mt-5 bg-body-tertiary">
+                                    <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+                                      <div class="row">
+                                        <div class="col-lg-3 mb-3 col-12">
+                                          <img src="/image/thumnail.webp" height="220px" width="300ppx">
+
+
+                                          <ul class="list-unstyled small">
+
+
+                                            <li class="mb-2">© 2017–2023 Company,</li>
+                                          </ul>
+                                        </div>
+                                        <div class="col-lg-3 mb-3 col-12">
+                                          <ul class="list-unstyled small">
+                                            <li class="mb-2">
+                                              <h3>Company</h3>
+                                              "Gully Fashion, weaving style and trends since 2017, continues to redefine
+                                              fashion in 2023 with a legacy of innovation and distinctive design."
+                                            </li>
+
+                                            <li class="mb-2">© 2017–2023 Company,</li>
+                                          </ul>
+                                        </div>
+                                        <div class="col-lg-3 mb-3 col-12">
+                                          <ul class="list-unstyled small">
+                                            <li class="mb-2">
+                                              <h3>Head office</h3>
+                                              <i class="fa-solid fa-location-dot"></i> Pearl One, 94-B/I, MM Alam Road,
+                                              Gulberg III, Lahore, Pakistan.
+                                              <p> <i class="fa-solid fa-phone"></i> 0309-5596964,</p>
+                                              <p><i class="fa-solid fa-envelope"></i>.Gmail:yasirqureshi7866T@gmail.com
+                                              </p>
+                                              <p> <i class="fa-regular fa-clock"></i> Onday To Sunday 9AM to 6PM.</p>
+                                            </li>
+
+                                            <li class="mb-2">© 2017–2023 Company,</li>
+                                          </ul>
+                                        </div>
+                                        <div class="col-6 col-lg-2 mb-3">
+
+                                          <ul class="list-unstyled text-dark">
+                                            <li class="mb-2 text-light ">
+                                            <li class="mb-2"><a href="/home.html">Home</li>
+                                            <li class="mb-2"><a href="/about.html">About</a></li>
+                                            <li class="mb-2"><a href="/girls.html">girl</a></li>
+                                            <li class="mb-2"><a href="/men.html">Men</a></li>
+                                            <li class="mb-2"><a href="/contact.html">contact us</a></li>
+                                          </ul>
+                                        </div>
+
+
+                                      </div>
+                                    </div>
+                                    </footer>
+                                    <!-- footer closed -->
+
+
+
+                                  </div>
+
+
+                                  <script
+                                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                                    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                                    crossorigin="anonymous"></script>
+</body>
+
+</html
